@@ -1,6 +1,6 @@
 # GPTCharacterizer
 
-To start the program locally, run 'bin/server' in the bash prompt. 'Ctrl' or 'Command' click the local ip posted in the terminal to open the app in the browser. (You will need to provide your own API key, located on line 20 of app.rb)
+To start the program locally, run ```bin/server``` in the bash prompt. 'Ctrl' or 'Command' click the local ip posted in the terminal to open the app in the browser. (You will need to provide your own API key, located on line 20 of app.rb)
 
 Alternatively, visit: http://gptcharacterizer.onrender.com
 
