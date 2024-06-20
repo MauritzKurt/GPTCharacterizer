@@ -17,7 +17,7 @@ get("/prompt/:char") do
 end
 
 get("/results") do
-  client = OpenAI::Client.new(access_token: ENV.fetch("GPTCHARACTERIZER_HOPEFULLY_WORKS_THIS_TIME"))
+  client = OpenAI::Client.new(access_token: ENV.fetch("RENDER_GPT_API_KEY"))
 
   char_to_str = $character.gsub("+"," ")
   # Prepare an array of messages
