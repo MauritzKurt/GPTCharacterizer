@@ -1,18 +1,8 @@
-# sinatra-template
+# GPTCharacterizer
 
-Use this repository to create new Sinatra apps. 
+Pick a character (or enter a custom one in the url) 
 
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
+Enter a prompt to ask that character(response comes from chatGPT 3.5-turbo)
+- You must press 'Enter' or 'Return' after entering your prompt, there is no submit button
 
-```ruby
-require "sinatra/activerecord"
-```
-
-And in the `config/environment.rb` file add this code block:
-
-```ruby
-configure do
-  # setup a database connection
-  set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
-end
-```
+Enjoy the generated response!
