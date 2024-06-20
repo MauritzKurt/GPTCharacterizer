@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sinatra Template</title>
+    <title>GPTCharacterizer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="<%= url('/public/style.css') %>" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+NG+Modern&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
 
   <body>
+    <!--<table style="width: 100%" border="2">
+      <tr align="center">
+        <td style = "width: 15%">
+          <strong>GPTCharacterizer</strong>
+        </td>
+
+        <td style = "width: 10%">
+          <a href="/">
+            Home
+          </a>
+        </td>
+
+        <td style = "width: 25%">
+          <a href="/character/new">
+            New Character
+          </a>
+        </td>
+
+      </tr>
+    </table>-->
+
     <%= yield %>
+
   </body>
 </html>

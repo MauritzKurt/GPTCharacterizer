@@ -1,0 +1,18 @@
+<h1>Results Page</h1>
+
+<div class="homepage_header">
+  <p id="p-2"><%= pp $character.gsub("+"," ") %> replied:</p>
+</div>
+
+<br>
+
+<div class="homepage_header">
+  <p id="p-2"><%= @response_fetch %></p>
+</div>
+
+<form action="/">
+  <div>
+    <label for="results_button"></label>
+    <button class="learn-more" role="link" id="results_button">Home</button>
+  </div>
+</form>
